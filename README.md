@@ -7,9 +7,9 @@ Key Features:
 According to few refereces using complex number in neural networks have some advantages like taking less training time.
 References:
 
-  a. https://towardsdatascience.com/what-would-happen-if-neural-network-states-were-complex-numbers-dc5b47731184
+a. https://towardsdatascience.com/what-would-happen-if-neural-network-states-were-complex-numbers-dc5b47731184
 
-  b. https://arxiv.org/pdf/2101.12249.pdf
+b. https://arxiv.org/pdf/2101.12249.pdf
 
 3. If the complex numbers are not desired simple code changes can be done to make imaginary part of the number to zero to make it real values neural networks model.
 
