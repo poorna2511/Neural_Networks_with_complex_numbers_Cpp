@@ -22,6 +22,8 @@ public:
 
 	vector<ComplexNum> _weights;
 
+	CNeuron() {}
+
 	CNeuron(int iLayerIdx, int iSize, bool iFillRandNums);
 
 	void ComputeOutput();
@@ -48,6 +50,12 @@ public:
 		vector<int> iNeuronsCounts,
 		double iLearningRate);
 
+	CNeuralNetwork(string iStrModelPath);
+
+	void LoadNN(string iStrModelPath);
+	void LoadBasicInfoOfNN(string iStrBasicInfoFilePath);
+	void LoadModelDataOfNN(string iStrModelPath);
+	   
 	void InitializeNN();
 
 	void StartTraining();
@@ -56,7 +64,16 @@ public:
 
 	void UpdateWeights(int iLayerIdx);
 
+	void SetInputLayerData(const vector<double> &iInputData);
+
 	void PropagteForwardFrom(int iLayerIdx);
 
 	void PropagteBackWardsTo(int iLayerIdx);
+
+	void SaveTheTrainingData();
+
+	void SaveNeuralNetwork();
+
+	void LoadNeuralNetwork(string iStrFilePath);
+
 };

@@ -1,0 +1,13 @@
+﻿  ActivationFunctions.cpp
+  CNeuralNetwork.cpp
+d:\just\neuralnetworks\neuralnetworks\cneuralnetwork.cpp(62): warning C4018: '<': signed/unsigned mismatch
+d:\just\neuralnetworks\neuralnetworks\cneuralnetwork.cpp(120): warning C4018: '<': signed/unsigned mismatch
+d:\just\neuralnetworks\neuralnetworks\cneuralnetwork.cpp(125): warning C4018: '<': signed/unsigned mismatch
+d:\just\neuralnetworks\neuralnetworks\cneuralnetwork.cpp(154): warning C4018: '<': signed/unsigned mismatch
+d:\just\neuralnetworks\neuralnetworks\cneuralnetwork.cpp(166): warning C4018: '<': signed/unsigned mismatch
+d:\just\neuralnetworks\neuralnetworks\cneuralnetwork.cpp(170): warning C4018: '<': signed/unsigned mismatch
+  main.cpp
+  Generating code
+  All 139 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  NeuralNetworks.vcxproj -> D:\just\NeuralNetworks\Release\NeuralNetworks.exe
